@@ -1,0 +1,85 @@
+.one{
+    display: flex;
+flex-grow: 3;
+background-color: aqua;
+}
+.two{
+    display: flex;
+    flex-grow:2 ;
+    background-color: blue;
+    text-align: center;
+}
+.three{
+    display: flex;
+    flex-grow: 8;
+    background-color: brown;
+
+}
+.four{
+    display: flex;
+    flex-grow:7;
+    background-color: blueviolet;
+}
+.container{
+    display: flex;
+    height: 170px;
+}
+.main{
+    display: flex;
+    height: 200px;
+    width: 170px;
+}
+.box{
+ display: flex; 
+ flex-shrink: 2; 
+ background-color: violet; 
+ width: 100px;
+
+}
+.bag{
+    display: flex;
+    flex-shrink:4 ;
+    background-color: bisque;
+    width:150px ;
+}
+.ball{
+    display: flex;
+    flex-shrink:3;
+    background-color: crimson;
+    width:200px ;
+}
+.phone{
+    height: 200px;
+    width: 400px;
+    background-color: rgb(217, 255, 0);
+    display: flex;
+    flex-direction:row ;
+    gap:20px;
+
+}
+.dot{
+    background-image:linear-gradient(to bottom right, skyblue,yellow,hotpink);
+    height:150px;
+    width: 90px;
+    text-align: center;
+
+}
+.car{
+    background-image:linear-gradient( to top left,yellow,blue,orange) ;
+    height:150px;
+    width: 80px;
+    text-align:center;
+}
+.wifi{
+    background-image: radial-gradient( circle,green,red,white);
+    height:150px ;
+    width: 90px;
+    text-align: center;
+
+}
+.data{
+    background-image:radial-gradient(ellipse,rgb(130, 238, 166),rgb(255, 201, 192),rgb(0, 162, 255)) ;
+    height:150px ;
+    width: 80px;
+    text-align: center;
+}

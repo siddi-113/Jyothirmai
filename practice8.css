@@ -1,0 +1,58 @@
+.one{
+    background-color:blue;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap:5px ;
+    
+}
+.two{
+    background-color:orange ;
+    display: grid;
+    grid-template-rows:1fr 1fr 1fr 1fr ;
+
+}
+.three{
+    background-color: burlywood;
+    display: grid;
+grid-template-rows: 1fr 1fr 1fr ;
+
+}
+.four{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap:5px ;
+    background-color:crimson ;
+}
+.five{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap:5px;
+    background-color: greenyellow;
+}
+.six{
+    display: grid;
+    grid-template-rows:2fr 2fr 2fr 2fr ;
+    gap:5px;
+    background-color: rosybrown;
+}
+.seven{
+    display: grid;
+    grid-template-rows:2fr 2fr 2fr 2fr ;
+    gap:5px ;
+    background-color: skyblue;
+}
+.nine{
+    display: grid;
+    grid-template-rows:2fr 2fr 2fr 2fr ;
+    gap:5px;
+    background-color:orchid;
+}
+.box{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:10px;
+}
+
+
+

@@ -1,0 +1,88 @@
+
+.one{
+    background-color: rgb(255, 251, 0);
+    height:100px ;
+    padding:20px;
+    margin:20px;
+    text-align:center;
+    order: 0;
+    font-style: oblique;
+    position: relative;
+    right:160px ;
+    top: 150px;
+
+}
+.main-container{
+    background-color: bisque;
+    text-align: center;
+    
+}
+.Jyothi{
+    height:100px ;
+    border-radius:80px ;
+    width:8opx;
+    order:1;
+}
+.two{
+    background-color:rgb(50, 205, 179) ;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    order:2 ;
+    font-style: oblique;
+}
+.three{
+    background-color: rgb(237, 100, 107);
+    color: white;
+    text-align: center;
+    padding: 20px; 
+    margin: 20px;
+    font-style:oblique;
+    position: sticky;
+    top:80px;
+}
+.four{
+background-color: rgb(70, 3, 70);
+color: floralwhite;
+text-align: center;
+padding:20px ;
+margin:20 ;
+font-style: oblique;
+position:relative;
+top:80PX ;
+position: absolute;
+bottom:200px;
+left:270px ;
+height: 200px;
+
+}
+.sub-container{
+display: flex;
+flex-direction: row;
+gap:20px ;
+justify-content: center;
+position: relative;
+top: 20px;
+}
+.box {
+    background-color: plum;
+    display:flex;
+    flex-direction: row;
+    justify-self: center;
+    font-style: italic;
+    position: fixed;
+top:0px;
+
+}
+#sub-container {
+    display:flex;
+    flex-direction: row;
+    gap: 350px;
+   font-size:30px; 
+}
+.main{
+    background-color: pink;
+    width:1350px;
+    height: 950px;
+}

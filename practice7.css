@@ -1,0 +1,46 @@
+.pen{
+    background-color: aqua;
+    height:100px ;
+    width:80px ;
+    display:block;
+}
+.bag{
+    background-color: blueviolet;
+    height:90px ;
+    width:90px;
+    display: block;
+}
+.box{
+    background-color: coral;
+    height:100px ;
+    width: 100px;
+    display:block;
+}
+.link{
+    background-color: darkolivegreen;
+    height: 100px;
+    width: 120px;
+    display: block;
+}
+.six{
+    background-color:thistle;
+    display: inline;
+}
+.nine{
+    background-color:tomato ;
+    display: inline;
+}
+.image-container{
+background-image:url(image7.png);
+background-repeat:no-repeat ;
+height:550px;
+text-align: center;
+width:700px ;
+}
+.two{
+    background-color:yellow ;
+    color:rgb(218, 112, 126);
+}
+.three{
+    text-align: left;
+}

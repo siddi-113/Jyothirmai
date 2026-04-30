@@ -1,0 +1,28 @@
+.image-container{
+    background-image: url(image6.png);
+    background-size: cover;
+    width:max-content;
+    height:530px ;
+
+}
+.box{
+    position: relative;
+    top:290px;
+    background-color:orange ;
+    padding:15px;
+    margin:10px ;
+}
+.bag{
+ border-top-left-radius:10% ;
+ border-top-right-radius:10% ; 
+ border-bottom-left-radius:10% ; 
+ border-bottom-right-radius:10% ;
+ border-color:white;
+ padding:8px ;
+}
+.one{
+font-family:serif;
+}
+.two{
+    font-family:Georgia;
+}

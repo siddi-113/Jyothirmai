@@ -1,0 +1,70 @@
+#one {
+background-color:hotpink;
+display-flex:row;
+flex-direction:row;
+justify-content:center;
+text-align:center;
+padding:10px;
+margin:15px;
+order:2
+}
+#Two {
+background-color:yellow;
+display:flex;;
+flex-direction:row;
+justify-content:center;
+padding:20px;
+margin:20px;
+order:3;
+}
+.Three {
+background-color:brown;
+display:flex;
+flex-direction:row;
+justify-content:center;
+padding:23px;
+margin:23px;
+oder:1
+}
+.Four {
+background-color:red;
+display-flex:row;
+flex-direction:row;
+justify-content:center;
+padding:25px;
+margin:25px;
+order:5
+}
+#Five {
+background-color:skyblue;
+display-flex:row;
+flex-direction:row;
+justify-content:center;
+padding:30px;
+margin:30px;
+order:4;
+}
+.Six {
+background-color:orange;
+display:flex
+flex-direction:row;
+justify-content:center;
+padding:35px;
+margin:35px;
+order:6
+}
+
+#container{
+display:flex;
+}
+.image-container {
+    background-image: url(image4.png);
+    height:600px;
+    width:200px;
+    overflow:auto;
+    background-repeat:no-repeat;
+  background-size: cover;
+  background-attachment: local;
+   
+
+}

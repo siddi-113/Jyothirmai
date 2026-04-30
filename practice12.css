@@ -1,0 +1,87 @@
+.image-container{
+ background-image: url(image7.png) ; 
+ background-repeat: no-repeat; 
+background-size: cover;
+ background-attachment:fixed;
+ overflow:scroll ;
+ width:200px;
+ height:110px; 
+ 
+}
+.box{
+background-color:orange;
+display:flex;
+flex-direction:row;
+justify-content:center;
+height:100px;
+width: 100px;
+order:4;
+}
+.bag{
+background-color:yellow;
+display:flex;
+flex-direction:row;
+justify-content:center;
+height:100px;
+width: 100px;
+order:3;
+}
+.sun{
+background-color:hotpink;
+display:flex;
+flex-direction:row;
+justify-content:center;
+height:100px;
+width: 100px;
+order:2;
+}
+.pen{
+background-color:blue;
+display:flex;
+flex-direction:row;
+justify-content:center;
+height: 100px;
+width: 100px;
+order:0;
+}
+.car{
+ background-color:navy;
+display:flex;
+flex-direction:row;
+justify-content:center;
+height:100px;
+order:5;
+width:100px;
+}
+.one{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+
+}
+.main{
+    background-image:url(image7.png) ;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity:20%;  
+}
+.two{
+    display: flex;
+    align-items: center;
+    background-color:antiquewhite;
+    height:100px ;
+    width: 80px;
+     border-top-right-radius:20px;
+     border-top-left-radius:20px ;
+     border-bottom-right-radius:20px ;
+    box-shadow:20px 15px 20px rgb(0, 183, 255);
+
+}
+.bike{
+    text-shadow:20px 15px 5px  red;
+}

@@ -1,0 +1,23 @@
+.box {
+background-color: yellow;
+width: 260px;
+height: 60px;
+position:relative;
+top:40px;
+}
+#jyo {
+background-color:skyblue;
+width:270px;
+height:90px;
+position:relative;
+top:60px;
+
+}
+#one {
+background-color:brown;
+width:280px;
+height:80px;
+position:sticky
+
+}
+

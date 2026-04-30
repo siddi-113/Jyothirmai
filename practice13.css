@@ -1,0 +1,43 @@
+.image-container{
+    background-image:linear-gradient(to left,gray,navy,brown,darkgray,black) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+
+}
+.one{
+    background-color:gray ;
+    height:545px ;
+    width:350px;
+    padding: 10px;
+}
+.box{
+    background-color:skyblue ;
+    text-align: right;
+    color: white;
+    font-family:"Arial narrow";
+    padding: 10px;
+    border-top-left-radius:10% ;
+    border-top-right-radius:10%;
+    border-bottom-left-radius:10% ;
+
+}
+.bag{
+    background-color: lightslategray;
+    height: 30px;
+    text-align: left;
+    color: white;
+    font-family:"Arial narrow";
+    padding: 10px;
+    border-top-left-radius:10% ;
+    border-top-right-radius:10%;
+    border-bottom-right-radius:10% ;
+}
+.two{
+    text-align: center;
+    color:white ;
+    font-family:"Arial" ;
+}
+.six:visited{
+    color:pink;
+}

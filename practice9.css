@@ -1,0 +1,11 @@
+.box{
+    width:100px;
+    height:90px ;
+    overflow:scroll;
+}
+.pen{
+visibility: hidden;
+}
+.bag{
+    display: none;
+}

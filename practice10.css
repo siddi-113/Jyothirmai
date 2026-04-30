@@ -1,0 +1,18 @@
+.one{
+    background-image:url(image7.png) ;
+    height:300px ;
+    width:140px;
+}
+.box{
+    border: solid;
+    border-color:navy;
+    color: white;
+    padding:20px;
+    position: relative;
+    top: 130px;
+    bottom:80px ;
+    width:60px;
+    left:15px;
+    right: 10px;
+    
+}
