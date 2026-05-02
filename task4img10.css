@@ -12,10 +12,10 @@
    background-color: goldenrod;
   color: white;
   border: solid;
-  border-top-left-radius:5px;
-  border-top-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius:5px ;
+  border-top-left-radius:7px;
+  border-top-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius:7px ;
   padding:6px; 
 }
 .box{
