@@ -1,0 +1,40 @@
+img{
+ width:150px;
+ height:150px;
+border-style: solid;
+border-color:mintcream;
+border-radius:70px;
+position: relative;
+top:40px;
+left:580px;
+}
+button{
+    color: beige;
+    background-color:lightpink;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border-color:palevioletred;
+    position: relative;
+    left:575px;
+    top:70px;
+
+}
+p{
+    width:200px;
+    height:20px;
+    border-radius: 10px;
+    position: relative;
+    left: 590px;
+    top:80px;
+    padding: 15px;
+    text-align: center;
+
+}
+.one{
+background-color:mediumturquoise;
+height:620px;
+border: solid;
+border-color: wheat;
+    
+}

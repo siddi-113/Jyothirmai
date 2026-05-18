@@ -1,0 +1,31 @@
+label{
+    color:red;
+    position: relative;
+    top:40px;
+    font-size:larger;
+}
+input{
+    color: darksalmon;
+    border-radius: 10px;
+    border-color: plum ;
+    position: relative;
+    top:40px;
+    font-size: large;
+}
+ul{
+    color: orchid;
+    list-style-type: none;
+    position: relative;
+    top: 60px;
+    font-size:large;
+    font-style: italic;
+}
+button{
+    background-color:lightpink;
+    color: aliceblue;
+    border-color: wheat;
+    border-radius: 10px;
+    padding: 15px;
+    position: relative;
+    top: 50px;
+}
