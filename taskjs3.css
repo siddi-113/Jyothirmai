@@ -1,0 +1,10 @@
+button{
+color: white;
+    background-color:lightpink;
+    border-radius:9px;
+    padding: 10px;
+    border-color:navy;
+}
+label{
+    color: mediumvioletred;
+}

@@ -1,0 +1,24 @@
+let a=Math.random();
+console.log(a);
+let b=a*100
+console.log(b);
+console.log(Math.ceil(b));
+console.log(Math.floor(b));
+let nam=document.createElement('h1');
+nam.textContent= "Hi good afternoon";
+console.log(nam);
+document.body.appendChild(nam); 
+let data=document.createElement('p');
+data.textContent="Java script number methods";
+console.log(data);
+let c=document.getElementById("one");
+one.appendChild(data);
+let p=document.body;
+let d=document.getElementById("two");
+p.removeChild(d);
+let head=document.getElementById("pen");
+head.classList.add("hello");
+console.log(head);
+let header_one=document.getElementById("dot");
+header_one.classList.remove("helllo");
+console.log(header_one);
