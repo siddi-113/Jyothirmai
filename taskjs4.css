@@ -1,0 +1,13 @@
+input{
+    width: 300px;
+}
+select{
+    width: 300px;
+}
+.pen{
+    justify-self: center;
+
+}
+.dark1{
+    background-color:rgb(225, 65, 172);
+}
