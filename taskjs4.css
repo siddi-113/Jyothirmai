@@ -1,13 +1,31 @@
 input{
     width: 300px;
+    border-radius: 6px;
+    height:22px;
 }
 select{
     width: 300px;
+    border-radius: 6px;
+    height:32px;
 }
+
 .pen{
     justify-self: center;
 
 }
 .dark1{
-    background-color:rgb(225, 65, 172);
+    background-color:rgb(222, 225, 65);
+}
+button{
+    color:white ;
+    background-color: deeppink;
+    border-color:rgb(255, 196, 240);
+    border-radius:6px;
+    padding: 10px;
+}
+#one_one{
+color: red;
+}
+#three_one{
+    color: red;
 }

@@ -7,10 +7,10 @@ function data(){
     console.log(jyo1.value);
     
 }
-//jyo1.addEventListener("change",data);
+jyo1.addEventListener("change",data);
 jyo1.addEventListener("blur",data);
 jyo1.addEventListener("input",data);
-//jyo1.addEventListener("focus",data);
+jyo1.addEventListener("focus",data);
 
 
     let btn=document.getElementById("one_one");

@@ -18,7 +18,7 @@ function data1(){
 }
 let datas=document.getElementById("five_on");
 let para=document.getElementById("box");
-datas.addEventListener('change',select)
+datas.addEventListener( 'change',select)
 function select(){
     let jyo=datas.value;
     para.innerHTML= "Selected course:"+ jyo;
@@ -46,7 +46,7 @@ else{
     passwords.innerHTML="strong password";
 }
  }
-four_on.addEventListener("input",mouni1);
+four_on.addEventListener("input",mouni1);                                     
 let time=document.getElementById("nine_one");
 let date4=new Date();
 time.innerHTML=date4.toLocaleTimeString();
@@ -56,7 +56,7 @@ let nam2=document.getElementById("one_one");
 function first(){
     let vv=nam1.value;
     if(vv.length===0){
-         nam2.innerHTML="required";
+         nam2.innerHTML="Required";
 }
 else{
     nam2.innerHTML=" ";
