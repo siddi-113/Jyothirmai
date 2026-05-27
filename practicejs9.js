@@ -39,7 +39,7 @@ console.log(back);
 
 
 // switch case
-let day=5;
+let day=3;
 switch(day){
  case 1:
  console.log("Monday");
@@ -49,6 +49,7 @@ console.log("Tuesday");
 break;
  case 3:
  console.log("wednesday");
+ break;
  default:
     console.log("Invalid day");
 }
@@ -59,10 +60,10 @@ console.log(arr2);
 
 //hoisting
 //console.log(x);
-  //let x=10
+//let x=10
 
   //console.log(y);
- // var y=20
+  //var y=20
 
  //console.log(z);
  //const z=30;
@@ -96,4 +97,14 @@ console.log("button clicked");
 }
 bag.addEventListener("click",msg,true);
 bag1.addEventListener("click",msg1);
+//clousers
+function outer(){
+  let count=0;
 
+function inner(){
+    count++;
+    document.getElementById("out").innerHTML=count;
+}
+return inner;
+}
+let count=outer();

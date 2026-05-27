@@ -13,6 +13,7 @@ console.log(index,item);
  let array_data=[10,20,30,40,50,60,70,80,90];
  for (let i=2;i<array_data.length;i++){
     console.log(array_data[i])}
+    
 const arr=[10,20,30,40,50,70];
 const sum=arr.reduce((jyo,item)=>{
     return jyo+item;
