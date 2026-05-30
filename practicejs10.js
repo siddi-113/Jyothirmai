@@ -62,4 +62,4 @@ const m3={
 fetch("https://jsonplaceholder.typicode.com/posts/5",m3)
 .then(res=>res.json())
 .then(data=> {console.log(JSON.stringify(data))});
-   
+    

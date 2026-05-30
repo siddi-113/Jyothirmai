@@ -97,7 +97,7 @@ console.log("button clicked");
 }
 bag.addEventListener("click",msg,true);
 bag1.addEventListener("click",msg1);
-//clousers
+//clousers 
 function outer(){
   let count=0;
 
@@ -108,3 +108,12 @@ function inner(){
 return inner;
 }
 let count=outer();
+
+//conditional operator
+let ages=20;
+let result=ages<=18?"Eligible":"not eligible";
+console.log(result);
+
+let age1=20;
+let result1=age1>=18?"Eligible":"not eligible";
+console.log(result1);
