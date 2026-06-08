@@ -24,3 +24,4 @@ const sum=remaining.reduce((jyo,item)=>{
 console.log(sum);
 
 
+

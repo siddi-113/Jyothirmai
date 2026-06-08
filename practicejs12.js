@@ -83,4 +83,5 @@ const paras={
 console.log(paras["names"]);
 //console warn and error
 console.warn("jyo");
-console.error("Hello");
+console.error("Hello");  
+
