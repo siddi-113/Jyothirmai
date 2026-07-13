@@ -52,6 +52,16 @@ const m2={
 fetch("https://jsonplaceholder.typicode.com/posts/8",m2)
 .then(res=>res.json())
 .then(data=> {console.log(JSON.stringify(data))});
+
+const user16={title:"JS",country:"india"}
+const m18={
+    method:"PUT",
+    headers:{"Content-Type":"application/json"},
+ body:JSON.stringify(user16)
+}
+fetch("https://jsonplaceholder.typicode.com/posts/9",m18)
+.then(res=>res.json())
+.then(data=> {console.log(JSON.stringify(data))});
    
 const user14={title:"JS",country:"india"}
 const m3={

@@ -7,3 +7,4 @@ const data=fs.readFileSync("demo.txt","utf8");
 console.log(data);
 //fs.unlinkSync("demo.txt");
 
+
